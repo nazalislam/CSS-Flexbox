@@ -5,9 +5,11 @@ html, body {
 ul#flex-container {
 	list-style: none;
 	margin: 0; padding: 0;
+	display: flex;
 }
 
 ul li {
+	flex-grow: 1;
 	height: 150px;
 	padding-top: 45px;
 	color: #fff;
